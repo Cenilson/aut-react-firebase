@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    font-family: 'Helvética', sans-serif;
+    color: wheat;
+  }
+  
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #453f46;
+  }
+  .container .header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .container .header span {
+    font-weight: 120px;
+    font-size: 5px;
+    line-height: 24px;
+    padding-top: 15px;
+  }
+  
+  .container .form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .container .form .inputContainer {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .container .form  .inputContainer {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    margin-bottom: 8px;
+  }
+  
+  .container .form  .inputContainer input, .container .form  .inputContainer p {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    width: 240px;
+    height: 49px;
+    border-bottom: ;
+    border-radius: 2px;
+    margin-bottom: 10px;
+  
+  }
+  
+  .container .form a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #5C73DB;
+  }
+  
+  .container .form .button {
+    width: 80px;
+    height: 80px;
+    background: #2fd2d4;
+    border-radius: 80px;
+    border: 3px;
+    border-color: #000000;
+    font-family: 'Mono-Spaced', sans-serif;
+    font-style: 'bold';
+    font-weight: 800;
+    font-size: 11px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container .form .button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  
+  .container .form .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px
+  }
+  
+  .container .form .footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 80px;
+    color: white;
+  }
+  
+  .container .form .footer a {
+    font-weight: 00;
+    font-size: 18px;
+    line-height: 19px;
+    color: #ff9900;
+  }
